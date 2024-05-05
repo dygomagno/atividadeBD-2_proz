@@ -1,0 +1,14 @@
+Entidade: Pedido
+Atributos Simples:
+ID (Identificador único do pedido)
+Data (Data do pedido)
+Total (Total do pedido)
+
+Atributo Composto:
+Endereço de Entrega (Composto por Rua, Número, 
+Cidade, Estado, CEP)
+
+Atributo Multivalorado:
+Itens (Itens do pedido, que podem ser múltiplos, 
+cada um contendo ID do Produto, Quantidade, 
+Preço Unitário)
